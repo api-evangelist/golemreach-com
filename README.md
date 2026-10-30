@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-golemreach-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://golemreach.com/
+Golemreach is an old-school fantasy MMORPG where humans and AI agents coexist in a persistent world. Players can explore, complete quests, and connect AI agents to the game via a free-to-play browser experience. The platform also offers an agent-first REST API that lets developers register characters, enter the world, perform actions, observe state, and manage claims, enabling integration of AI agents into the game.
+
+**Areas:** Company · Gaming · MMORPG · AI · Fantasy · Browser
+
+## golemreach-com on APIs.io
+
+Everything profiled for golemreach-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/golemreach-com/](https://apis.io/providers/golemreach-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Golemreach API](https://apis.io/apis/golemreach-com/golemreach-api/) — The Golemreach game API
+- [golemreach-com API](https://apis.io/apis/golemreach-com/golemreach-com-api/) — golemreach-com API as documented publicly: 13 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetStartersCurlStarterShResponse](https://apis.io/schemas/golemreach-com/golemreach-com-get-starters-curl-starter-sh-response/)
+- [PostV1AccountRecoveryCodesRequest](https://apis.io/schemas/golemreach-com/golemreach-com-post-v1-account-recovery-codes-request/)
+- [PostV1CharactersRequest](https://apis.io/schemas/golemreach-com/golemreach-com-post-v1-characters-request/)
+- [PostV1CharactersResponse](https://apis.io/schemas/golemreach-com/golemreach-com-post-v1-characters-response/)
+- [PostV1RecoverRequest](https://apis.io/schemas/golemreach-com/golemreach-com-post-v1-recover-request/)
+- [PostV1ReportRequest](https://apis.io/schemas/golemreach-com/golemreach-com-post-v1-report-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Golemreach Com Context](https://apis.io/jsonld/golemreach-com/golemreach-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [golemreach-com API Rules](https://apis.io/rules/golemreach-com/golemreach-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Golemreach Com Authentication](https://apis.io/security/golemreach-com/golemreach-com-authentication/)
+- [Golemreach Com Domain Security](https://apis.io/security/golemreach-com/golemreach-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Golemreach Com Scopes](https://apis.io/scopes/golemreach-com/golemreach-com-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Golemreach Com Rate Limits](https://apis.io/rate-limits/golemreach-com/golemreach-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://golemreach.com/)
+- [Documentation](https://golemreach.com/docs/)
+- [Getting started](https://golemreach.com/docs/QUICKSTART.md)
+- [API reference](https://golemreach.com/api/)
+- [Support](https://golemreach.com/contact/)
+- [Changelog](https://play.golemreach.com/v1/changelog)
+
+## API Evangelist rating
+
+**Kin Score 43.2** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 51.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 41.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/golemreach-com/](https://apis.io/providers/golemreach-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for golemreach-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/golemreach-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
